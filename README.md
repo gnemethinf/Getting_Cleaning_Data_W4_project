@@ -1,7 +1,9 @@
 # Getting and Cleaning Data Week4 Project
 
 Author: Gábor NÉMETH
+
 Date: 2026-11-08
+
 Last update: 2026-11-08
 
 ## Description
