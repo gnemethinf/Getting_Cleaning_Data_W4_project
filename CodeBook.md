@@ -220,6 +220,9 @@ Unfortunately, I have not found an elegant way to summarize them, hence all the 
 
 The resulting data frame has $6\times 30 = 180$ rows (regarding the 6 kind of activity and 30 subjects) and $82$ columns. 
 
-
-   
-
+The following variables can be found in the results: 
+  | Variable                         | Description                                             |
+  |:---------------------------------|:--------------------------------------------------------| 
+  | activityCode                     | The activity code. Values can be 1, 2, 3, 4, 5, or 6.   |
+  | activityLabel                    | The labels regarding the activity code.                 |
+  | subject                          | The number (id) of subject in the experience.           | 
