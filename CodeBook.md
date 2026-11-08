@@ -79,9 +79,9 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 
-## Transformation
+# Transformation
 
-### Preparing and reading data from TXT files 
+## Preparing and reading data from TXT files 
 
 There are two folder in `data` folder, `train` and `test`. Furthermore, there are some other TXT files, that contains features. 
 The `data` folder contains original files from the data source linked above. 
@@ -99,7 +99,7 @@ In both of the three files (i.e., `X_train.txt`, `y_train.txt`, and `subject_tra
   
 The four steps above are applied also for the test data set. The test data set is stored in `df_test` data frame. 
 
-### Step 1. Merging the training and the test sets to create one data set.
+## Step 1. Merging the training and the test sets to create one data set.
 
 Since `df_train` and `df_test` data frames have the same number and pairwise corresponding columns, we can merge them concatenating the rows `df_test` after the last row of `df_train`.
 The result data frame is called `df_train_test`.
